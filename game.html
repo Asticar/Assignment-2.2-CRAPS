@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Calls for the javascript-->
+    <script src = "Module 2 functions.js"></script>
+    <title>ROCK, PAPER, SCISSORS</title>
+    <!-- links the HTML to a css file for stylizing-->
+    <link rel="stylesheet" href="rockpaperscissors.css">
+</head>
+<body>
+    <h1>Lets play Rock, Paper, Scissors!</h1>
+    <!-- Creates a button to be pressed, and labels the RPS function for javascript, should create a number between 1 and three-->
+    <button onclick = "RPS();">Click me to play!</button>
+    <br><br>
+    <!--Shows the result of player 1's RPS-->
+    <p><player1> Player 1:</player1>
+    <playerresult id = "player1">player 1 results</playerresult></p>
+    <br> <br>
+    <!--Shows the result of player 2's RPS-->
+    <p><player2> Player 2:</player2>
+    <playerresult id = "player2">player 2 results</playerresult></p>
+    <br> <br>
+    <!--Shows the winner of the RPS-->
+    <p><winner id = "results">Winner goes here</winner></p>
+    <br><br>
+    <!--Shows an image of rock paper scissors-->
+    <img id="rpsimage" src="rpsimage.png" style="width:500px;height:430px;">
+    
+</body>
+</html>
