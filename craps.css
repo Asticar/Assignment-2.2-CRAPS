@@ -1,0 +1,108 @@
+/* Stylizes the body*/
+body{
+    background-color:rgb(0, 0, 0);
+    text-align: center;
+}
+/* Styleizes the header*/
+h1{
+    /*I found this out online, but basically having several text-shadow elements of varying px allows for a sort of gradient glow effect for the letters*/
+    font-size: 48px;
+            color: #fff;
+            text-shadow:
+                0 0 5px #0ff,
+                0 0 10px #0ff,
+                0 0 20px #0ff,
+                0 0 40px #0ff,
+                0 0 80px #0ff;
+            padding: 20px;
+}
+/* Stylizes all the paragraphs*/
+p{
+    border-style:outset;
+    display: inline-block; /* Wraps the border around the text */
+    font-size: 40px;
+}
+/* Stylizes die 1's label, but not their result*/
+die1{
+    color: #fff;
+            text-shadow:
+                0 0 5px rgb(60, 255, 0),
+                0 0 10px rgb(60, 255, 0),
+                0 0 20px rgb(60, 255, 0),
+                0 0 40px rgb(60, 255, 0),
+                0 0 80px rgb(60, 255, 0);
+}
+/* Stylizes die 2' label, but not their result*/
+die2{
+    color: #fff;
+            text-shadow:
+                0 0 5px rgb(60, 255, 0),
+                0 0 10px rgb(60, 255, 0),
+                0 0 20px rgb(60, 255, 0),
+                0 0 40px rgb(60, 255, 0),
+                0 0 80px rgb(60, 255, 0);
+    
+}
+/* Stylizes the label of the sum*/
+sumlabel{
+    color: #fff;
+            text-shadow:
+                0 0 5px rgb(60, 255, 0),
+                0 0 10px rgb(60, 255, 0),
+                0 0 20px rgb(60, 255, 0),
+                0 0 40px rgb(60, 255, 0),
+                0 0 80px rgb(60, 255, 0);
+    
+}
+/*Stylizes the result of the die*/
+dieresult{
+    color: #fff;
+            text-shadow:
+                0 0 5px rgb(251, 255, 0),
+                0 0 10px rgb(251, 255, 0),
+                0 0 20px rgb(251, 255, 0),
+                0 0 40px rgb(251, 255, 0),
+                0 0 80px rgb(251, 255, 0);
+}
+/* Stylizes the sum of the two die*/
+sum{
+    color: #fff;
+    text-shadow:
+        0 0 5px rgb(251, 255, 0),
+        0 0 10px rgb(251, 255, 0),
+        0 0 20px rgb(251, 255, 0),
+        0 0 40px rgb(251, 255, 0),
+        0 0 80px rgb(251, 255, 0); 
+}
+/*Stylizes the announcement of who won*/
+winner{
+    color: #fff;
+            text-shadow:
+                0 0 5px rgb(251, 255, 0),
+                0 0 10px rgb(251, 255, 0),
+                0 0 20px rgb(251, 255, 0),
+                0 0 40px rgb(251, 255, 0),
+                0 0 80px rgb(251, 255, 0);
+}
+/* Just edited the image a little to put it on the right side of the screen without text-align*/
+#crapsimage{
+    margin-left: 1000px;
+}
+/* Made the button bigger, more colorful, and glowing*/
+button{
+    font-size: 48px;
+            color: white;
+            background-color: black;
+            box-shadow: 0 0 5px rgb(251, 255, 0),
+            0 0 10px rgb(251, 255, 0),
+            0 0 20px rgb(251, 255, 0),
+            0 0 40px rgb(251, 255, 0),
+            0 0 80px rgb(251, 255, 0);;
+            text-shadow:
+                0 0 5px rgb(251, 255, 0),
+                0 0 10px rgb(251, 255, 0),
+                0 0 20px rgb(251, 255, 0),
+                0 0 40px rgb(251, 255, 0),
+                0 0 80px rgb(251, 255, 0);
+            padding: 20px;
+}
